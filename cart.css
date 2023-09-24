@@ -1,0 +1,138 @@
+
+*{
+    text-decoration: none;
+}
+
+.container{
+    width: 70%;
+    height: auto;
+    /* background: #fdacac; */
+    margin: 0 auto;
+    text-align: center;
+}
+#carte_panier{
+    background-color:rgba(228, 228, 228, 0.808);
+    border-radius: 20px;
+
+}
+.titre_panier{
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--jaune);
+}
+.image_cart{
+    width: 5rem;
+
+}
+.modif_prix{
+    width: 4rem;
+}
+table{
+    width: 100%;
+    
+}
+table thead th{
+    background: #000;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    
+}
+table .table_input input{
+    border-radius: 5px;
+    padding: 1rem ;
+    width: 7rem;
+    color: #000;
+
+}
+table .table_input .btn_modif{
+ background-color: var(--jaune);
+}
+table .table_bottom{
+    background-color: #8b8a8a;
+  
+    
+}
+table .table_bottom .option-btn{
+    padding: 10px;
+    background-color: var(--jaune);
+    border-radius: 5px;
+    
+}
+.btn_supprimer_tout {
+    padding: 10px;
+    background-color: orangered;
+    border-radius: 5px;
+}
+.btn_supprimer {
+    padding: 10px;
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+.btn-paiement{
+    width:50%;
+    height:auto;
+    padding: 10px;
+    background-color: #ffc107;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    border-radius:10px;
+    font-size: 100%;
+    color: #fff;
+
+
+}
+
+@media (max-width:1200px){
+    body{
+        overflow-x: scroll;
+    }
+    
+    #carte_panier{
+        overflow-x:scroll ;
+    }
+}
+@media (max-width:300px){
+    table{
+        padding: 70%;
+    }
+}
+
+.form-paiement{
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem;
+    height: auto;
+    /* background-color: grey; */
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    }
+/* 
+    .commande_panier {
+        text-align: center;
+        
+    } */
+    .commande_panier {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+
+    }
+    .commande_panier span {
+        margin-top: 1rem;
+        background-color: var(--jaune);
+        padding: .5rem;
+        border-radius: 10px;
+    }
+
+    .somme_totaux{
+        background-color: orangere;
+    }
+
+    /* mon slider */
